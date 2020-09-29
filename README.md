@@ -10,6 +10,25 @@ size - it just makes debugging harder.
 The only one I found which didn't have this problem gave polluted stack traces,
 so I just quickly wrangled this together.
 
+## Installation
+
+```
+$ npm install @gustavnikolaj/node-invariant
+```
+
+## Usage
+
+```js
+const invariant = require('@gustavnikolaj/node-invariant')
+
+invariant(myCondition, 'My invariant message');
+
+// if myCondition is falsy:
+//
+// InvariantViolation: My invariant message
+//     at ~/Projects/my-app/test.js
+```
+
 ## Why not just assert?
 
 The core assert module almost works just as well, but it generates too noisy
@@ -66,4 +85,3 @@ AssertionError [ERR_ASSERTION]: Missing environment variable DB_PASS
   operator: '=='
 }
 ```
-
