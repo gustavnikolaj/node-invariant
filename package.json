@@ -1,5 +1,5 @@
 {
-  "name": "invariant",
+  "name": "@gustavnikolaj/node-invariant",
   "version": "0.0.0",
   "description": "",
   "main": "lib/invariant.js",
