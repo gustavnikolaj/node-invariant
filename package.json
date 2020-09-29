@@ -8,7 +8,14 @@
     "lint": "eslint . && prettier --check '**/*.js'",
     "test": "mocha"
   },
-  "keywords": [],
+  "repository": "gustavnikolaj/node-invariant",
+  "homepage": "https://github.com/gustavnikolaj/node-invariant",
+  "bugs": {
+    "url": "https://github.com/gustavnikolaj/node-invariant/issues"
+  },
+  "keywords": [
+    "invariant"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
